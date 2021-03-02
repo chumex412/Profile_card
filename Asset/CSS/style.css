@@ -14,6 +14,7 @@ html {
 
 body {
   font-size: 1rem;
+  font-family: 'Kumbh Sans', sans-serif;
   background-image: url(../profile-card-component-main/images/bg-pattern-top.svg),
                     url(../profile-card-component-main/images/bg-pattern-bottom.svg),
                     linear-gradient(var(--primary-color), var(--primary-color));               
@@ -133,7 +134,7 @@ body {
 }
 
 .text-normal {
-  font-weight: 300;
+  font-weight: normal;
 }
 
 .img-fluid {
@@ -215,8 +216,7 @@ body {
 
 @media (min-width: 600px) {
   :root {
-    --base-size: 1.15rem;
-    --type-scale: 1.2;
+    --base-size: 1.25rem;
     --height-scale: 1.13;
   }
 
@@ -227,15 +227,15 @@ body {
 
 @media (min-width: 768px) {
   :root {
-    --type-scale: 1.25;
+    --base-size: 1.35rem;
+    --type-scale: 1.2;
   }
 }
 
 @media (min-width: 992px) {
   :root {
-    --base-size: 1.35rem;
-    --type-scale: 1.2;
-    --height-scale: 1.15;
+    --base-size: 1.5rem;
+    --height-scale: 1.2;
   }
 
   body {
